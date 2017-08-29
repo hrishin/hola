@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  hola-wildfly-swarm-service:
+    image: hola-wildfly-swarm:latest
+    labels:
+     - "hola-wildfly-swarm"
+    ports:
+      - "8080:8080"
